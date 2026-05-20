@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { machines, Machine } from '@/data/machines';
 import Icon from '@/components/ui/icon';
 
-const categories = ['Все', 'Суперавтомат', 'Рожковая', 'Капсульная', 'Профессиональная'];
+const categories = ['Все', 'Суперавтомат', 'Профессиональная', 'Компактная'];
 
 const specLabels: Record<string, string> = {
   pressure: 'Давление',
