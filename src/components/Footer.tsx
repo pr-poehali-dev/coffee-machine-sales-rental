@@ -46,7 +46,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li className="font-body text-xs text-[hsl(40,15%,40%)]">8 (8442) 267-653</li>
               <li className="font-body text-xs text-[hsl(40,15%,40%)]">volgoglass@mail.ru</li>
               <li className="font-body text-xs text-[hsl(40,15%,40%)]">г. Волгоград, ул. Скосырева 5</li>
-              <li className="font-body text-xs text-[hsl(40,15%,40%)]">Пн–Пт: 9:00–20:00</li>
+              <li className="font-body text-xs text-[hsl(40,15%,40%)]">Пн–Пт: 9:00–18:00</li>
             </ul>
           </div>
         </div>

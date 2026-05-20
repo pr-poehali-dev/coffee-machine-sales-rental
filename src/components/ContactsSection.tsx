@@ -35,7 +35,7 @@ export default function ContactsSection() {
                 { icon: 'Phone', label: 'Телефон', value: '8 (8442) 267-653', href: 'tel:88442267653' },
                 { icon: 'Mail', label: 'Email', value: 'volgoglass@mail.ru', href: 'mailto:volgoglass@mail.ru' },
                 { icon: 'MapPin', label: 'Адрес', value: 'г. Волгоград, ул. Скосырева 5', href: '#' },
-                { icon: 'Clock', label: 'Режим работы', value: 'Пн–Пт: 9:00–20:00', href: '#' },
+                { icon: 'Clock', label: 'Режим работы', value: 'Пн–Пт: 9:00–18:00', href: '#' },
               ].map((contact) => (
                 <a
                   key={contact.label}
