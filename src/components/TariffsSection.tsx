@@ -31,34 +31,12 @@ const tariffs = [
       'Машина в аренду',
       'Доставка и установка',
       'Инструктаж персонала',
-      'Техподдержка 24/7',
       'Плановое ТО раз в 3 мес.',
       'Выезд мастера (до 2 раз)',
       'Замена машины на период ремонта',
     ],
     notIncluded: ['Расходные материалы'],
     featured: true,
-  },
-  {
-    id: 'premium',
-    name: 'Премиум',
-    tagline: 'Для ресторанов и отелей',
-    priceMonth: 14900,
-    deposit: 0,
-    duration: 'от 1 месяца',
-    machines: ['Все модели', 'Включая La Marzocco'],
-    features: [
-      'Машина в аренду',
-      'Доставка и установка',
-      'Персональный менеджер',
-      'Техподдержка 24/7',
-      'Ежемесячное ТО',
-      'Неограниченные выезды',
-      'Замена машины 24ч',
-      'Расходные материалы включены',
-      'Обучение баристы',
-    ],
-    notIncluded: [],
   },
 ];
 
@@ -100,7 +78,7 @@ export default function TariffsSection({ onOrderClick }: TariffsSectionProps) {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 max-w-3xl mx-auto">
           {tariffs.map((tariff) => (
             <div
               key={tariff.id}
