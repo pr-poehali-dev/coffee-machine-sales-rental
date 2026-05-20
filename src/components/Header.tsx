@@ -63,9 +63,9 @@ export default function Header({ activeSection, onNavigate }: HeaderProps) {
           </nav>
 
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:+74951234567" className="flex items-center gap-2 text-[hsl(40,15%,55%)] hover:text-gold transition-colors text-xs font-body tracking-wide">
+            <a href="tel:88442267653" className="flex items-center gap-2 text-[hsl(40,15%,55%)] hover:text-gold transition-colors text-xs font-body tracking-wide">
               <Icon name="Phone" size={14} />
-              +7 (495) 123-45-67
+              8 (8442) 267-653
             </a>
             <button
               onClick={() => onNavigate('contacts')}

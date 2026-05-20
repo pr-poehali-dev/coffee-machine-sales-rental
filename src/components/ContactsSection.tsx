@@ -32,7 +32,7 @@ export default function ContactsSection() {
           <div>
             <div className="space-y-6 mb-10">
               {[
-                { icon: 'Phone', label: 'Телефон', value: '+7 (495) 123-45-67', href: 'tel:+74951234567' },
+                { icon: 'Phone', label: 'Телефон', value: '8 (8442) 267-653', href: 'tel:88442267653' },
                 { icon: 'Mail', label: 'Email', value: 'hello@coffeelux.ru', href: 'mailto:hello@coffeelux.ru' },
                 { icon: 'MapPin', label: 'Адрес', value: 'Москва, ул. Арбат, 24', href: '#' },
                 { icon: 'Clock', label: 'Режим работы', value: 'Пн–Пт: 9:00–20:00', href: '#' },

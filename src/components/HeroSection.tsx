@@ -21,7 +21,7 @@ export default function HeroSection({ onNavigate }: HeroSectionProps) {
         <div className="inline-flex items-center gap-3 mb-8 animate-fade-up" style={{ animationDelay: '0.1s', opacity: 0 }}>
           <div className="divider-gold w-12" />
           <span className="font-body text-xs tracking-[0.25em] uppercase text-gold">
-            Аренда премиальных кофемашин
+            Аренда профессиональных кофемашин
           </span>
           <div className="divider-gold w-12" />
         </div>

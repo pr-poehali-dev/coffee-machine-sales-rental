@@ -15,7 +15,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <span className="font-display text-lg tracking-widest text-gradient-gold">COFFEELUX</span>
             </button>
             <p className="font-body text-xs text-[hsl(40,10%,35%)] leading-relaxed max-w-xs">
-              Премиальные кофемашины в аренду для бизнеса. Профессиональный сервис и высочайшее качество.
+              Профессиональные кофемашины в аренду для бизнеса. Профессиональный сервис и высочайшее качество.
             </p>
           </div>
 
@@ -43,7 +43,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <div className="font-body text-xs text-[hsl(40,15%,35%)] tracking-widest uppercase mb-4">Контакты</div>
             <ul className="space-y-2">
-              <li className="font-body text-xs text-[hsl(40,15%,40%)]">+7 (495) 123-45-67</li>
+              <li className="font-body text-xs text-[hsl(40,15%,40%)]">8 (8442) 267-653</li>
               <li className="font-body text-xs text-[hsl(40,15%,40%)]">hello@coffeelux.ru</li>
               <li className="font-body text-xs text-[hsl(40,15%,40%)]">Москва, ул. Арбат, 24</li>
               <li className="font-body text-xs text-[hsl(40,15%,40%)]">Пн–Пт: 9:00–20:00</li>
