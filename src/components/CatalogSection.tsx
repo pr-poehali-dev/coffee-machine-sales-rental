@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { machines, Machine } from '@/data/machines';
 import Icon from '@/components/ui/icon';
 
-const categories = ['Все', 'Суперавтомат', 'Профессиональная', 'Компактная'];
+const categories = ['Все', 'Компактная', 'Офисная', 'Вендинг'];
 
 const specLabels: Record<string, string> = {
   pressure: 'Давление',
@@ -43,7 +43,7 @@ function CompareModal({ machines, onClose }: CompareModalProps) {
                     <div className="font-display text-lg text-[hsl(40,30%,85%)]">{m.name}</div>
                     <div className="font-body text-xs text-[hsl(40,15%,45%)]">{m.brand}</div>
                     <div className="font-body text-sm text-gold font-medium mt-1">
-                      {m.priceMonth.toLocaleString('ru')} ₽/мес
+                      {m.priceMonth.toLocaleString('ru')} ₽
                     </div>
                   </td>
                 ))}
@@ -218,7 +218,7 @@ export default function CatalogSection({ onOrderClick }: CatalogSectionProps) {
                     <div className="font-display text-xl text-gold">
                       {machine.priceMonth.toLocaleString('ru')}
                     </div>
-                    <div className="font-body text-[10px] text-[hsl(40,15%,40%)] tracking-wide">₽/месяц</div>
+                    <div className="font-body text-[10px] text-[hsl(40,15%,40%)] tracking-wide">₽</div>
                   </div>
                 </div>
 
