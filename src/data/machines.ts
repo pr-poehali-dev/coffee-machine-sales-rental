@@ -20,13 +20,18 @@ export interface Machine {
   badge?: string;
 }
 
+const IMG_COMPACT = 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/7000cad6-e008-4a01-b9b6-2eaef21aaa91.jpg';
+const IMG_OFFICE = 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/6736bd0e-27c9-4c44-9147-732545e03782.jpg';
+const IMG_VENDING = 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/148e30f1-ad18-45c4-9606-8f372b611b2c.jpg';
+const IMG_CENTER = 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/ad152423-6c1e-4308-b082-c08bb6b08b1a.jpg';
+
 export const machines: Machine[] = [
   {
     id: 1,
     name: 'F10',
     brand: 'Dr.Coffee',
     category: 'Компактная',
-    image: 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/678f49e1-c1f5-4470-b6e6-6efce5b54fa3.jpg',
+    image: IMG_COMPACT,
     priceMonth: 89000,
     description: 'Компактная автоматическая кофемашина для дома и небольшого офиса. Простое управление, свежий кофе из зерна одним нажатием кнопки.',
     specs: {
@@ -47,7 +52,7 @@ export const machines: Machine[] = [
     name: 'F15',
     brand: 'Dr.Coffee',
     category: 'Офисная',
-    image: 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/0ecb6143-63a0-4c6f-b8a4-527323d41951.jpg',
+    image: IMG_OFFICE,
     priceMonth: 135000,
     description: 'Автоматическая кофемашина для среднего офиса. Сенсорный дисплей, автоматический капучинатор, подключение к водопроводу.',
     specs: {
@@ -68,7 +73,7 @@ export const machines: Machine[] = [
     name: 'CoffeeBreak Plus (MDB)',
     brand: 'Dr.Coffee',
     category: 'Вендинг',
-    image: 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/18f4a75a-66dc-4812-bc76-72d06ab20127.jpg',
+    image: IMG_VENDING,
     priceMonth: 154000,
     description: 'Вендинговая кофемашина с поддержкой платёжного терминала MDB. Для торговых точек, офисов самообслуживания и общественных мест.',
     specs: {
@@ -88,7 +93,7 @@ export const machines: Machine[] = [
     name: 'CoffeeBreak Big Plus (MDB)',
     brand: 'Dr.Coffee',
     category: 'Вендинг',
-    image: 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/18f4a75a-66dc-4812-bc76-72d06ab20127.jpg',
+    image: IMG_VENDING,
     priceMonth: 160000,
     description: 'Вендинговая кофемашина с увеличенным баком 8 л и терминалом MDB. Меньше дозаливов воды — больше кофе без перебоев.',
     specs: {
@@ -108,7 +113,7 @@ export const machines: Machine[] = [
     name: 'CoffeeBar (MDB)',
     brand: 'Dr.Coffee',
     category: 'Вендинг',
-    image: 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/0ecb6143-63a0-4c6f-b8a4-527323d41951.jpg',
+    image: IMG_OFFICE,
     priceMonth: 285000,
     description: 'Профессиональная вендинговая станция с большим сенсорным экраном и терминалом MDB. Для кафе, ресторанов и точек с высоким потоком.',
     specs: {
@@ -129,9 +134,9 @@ export const machines: Machine[] = [
     name: 'CoffeeCenter (MDB)',
     brand: 'Dr.Coffee',
     category: 'Вендинг',
-    image: 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/18f4a75a-66dc-4812-bc76-72d06ab20127.jpg',
+    image: IMG_CENTER,
     priceMonth: 320000,
-    description: 'Флагманская вендинговая кофемашина. До 200+ чашек в сутки, интеграция с эквайрингом, удалённый мониторинг. Для крупных объектов.',
+    description: 'Флагманская вендинговая кофемашина. До 250+ чашек в сутки, интеграция с эквайрингом, удалённый мониторинг. Для крупных объектов.',
     specs: {
       pressure: '19 бар',
       capacity: '1.5 кг зёрен',
@@ -150,7 +155,7 @@ export const machines: Machine[] = [
     name: 'CoffeeCenter Plus (MDB)',
     brand: 'Dr.Coffee',
     category: 'Вендинг',
-    image: 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/18f4a75a-66dc-4812-bc76-72d06ab20127.jpg',
+    image: IMG_CENTER,
     priceMonth: 360000,
     description: 'Топовая вендинговая кофемашина с расширенными возможностями. Максимальная производительность, полный набор платёжных систем, телеметрия.',
     specs: {
@@ -171,7 +176,7 @@ export const machines: Machine[] = [
     name: 'F100 (MDB)',
     brand: 'Dr.Coffee',
     category: 'Вендинг',
-    image: 'https://cdn.poehali.dev/projects/ed06d20d-a1dc-43d2-95b9-80ca6e9fcae2/files/0ecb6143-63a0-4c6f-b8a4-527323d41951.jpg',
+    image: IMG_VENDING,
     priceMonth: 350000,
     description: 'Высокопроизводительная вендинговая кофемашина серии F100. Надёжная платформа, поддержка MDB, широкий ассортимент горячих напитков.',
     specs: {
