@@ -33,8 +33,8 @@ export default function ContactsSection() {
             <div className="space-y-6 mb-10">
               {[
                 { icon: 'Phone', label: 'Телефон', value: '8 (8442) 267-653', href: 'tel:88442267653' },
-                { icon: 'Mail', label: 'Email', value: 'hello@coffeelux.ru', href: 'mailto:hello@coffeelux.ru' },
-                { icon: 'MapPin', label: 'Адрес', value: 'Москва, ул. Арбат, 24', href: '#' },
+                { icon: 'Mail', label: 'Email', value: 'volgoglass@mail.ru', href: 'mailto:volgoglass@mail.ru' },
+                { icon: 'MapPin', label: 'Адрес', value: 'г. Волгоград, ул. Скосырева 5', href: '#' },
                 { icon: 'Clock', label: 'Режим работы', value: 'Пн–Пт: 9:00–20:00', href: '#' },
               ].map((contact) => (
                 <a
